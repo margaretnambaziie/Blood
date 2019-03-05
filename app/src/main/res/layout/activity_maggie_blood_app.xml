@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaggieBloodApp">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE MOTHERS"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"
+
+        />
+
+
+    <ImageView
+
+        android:layout_marginTop="10dp"
+        android:id="@+id/img"
+        android:layout_below="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/mat"
+    />
+
+   <Button
+       android:id="@+id/btnCONTINUE"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/img"
+       android:text="CONTINUE"
+       android:layout_marginTop="5dp"
+       android:textColor="@android:color/white"
+       android:background="@color/magie"
+       android:layout_marginStart="25dp"
+       android:layout_marginEnd="25dp"
+
+       />
+
+
+</RelativeLayout>
